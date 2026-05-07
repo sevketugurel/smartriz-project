@@ -18,7 +18,12 @@
       "Bash(ollama list *)",
       "Bash(.venv/bin/ruff check *)",
       "Bash(curl -s http://localhost:8000/health)",
-      "Bash(curl -N --max-time 180 \"http://localhost:8000/api/stream?problem=A%20heavy%20bridge%20component%20must%20remain%20strong%20while%20reducing%20weight.\")"
+      "Bash(curl -N --max-time 180 \"http://localhost:8000/api/stream?problem=A%20heavy%20bridge%20component%20must%20remain%20strong%20while%20reducing%20weight.\")",
+      "Bash(ruff check *)",
+      "Bash(git -C /Users/sevketugurel/Desktop/LIFTUP/smartriz-project add src/smartriz/agents/graph.py)",
+      "Bash(git -C /Users/sevketugurel/Desktop/LIFTUP/smartriz-project commit -m ' *)",
+      "Bash(npm run *)",
+      "Bash(echo \"Exit code: $?\")"
     ]
   }
 }
